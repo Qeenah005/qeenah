@@ -1,0 +1,47 @@
+ul li{
+    list-style-type: none;
+    display: inline;
+   
+    
+}
+ul{
+    background-color: brown;
+    position: fixed;
+    width: 100%;
+    top: -15px;
+    text-align: center;
+    
+    
+    
+}
+ul li a{
+    margin: auto;
+    text-decoration: none;
+    background-color: black;
+    font-size: 35px;
+    text-decoration: none;
+    margin-right: 10%;
+
+}
+ 
+
+li a:visited{
+    color: blueviolet;
+    background-color: brown;
+    margin: 10px;
+}
+
+li a:hover{
+    color: aquamarine;
+    background: orange;
+    padding: 5px;
+    border: 5px solid red;
+    border-radius: 20px;
+}
+ 
+li a:active{
+    color: purple;
+    background-color: aqua;
+    border: 10px solid;
+    border-radius: 30px;
+}

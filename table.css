@@ -1,0 +1,33 @@
+table tr td{
+    border: px solid;
+    border-radius: 5px;
+    border-collapse: collapse;
+    font-size: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+table tr:nth-child(even){
+    color: orange;
+}
+table tr td:hover{
+    color: blueviolet;
+    width: 20%;
+}
+
+table tr td{height: 100px;
+    vertical-align: bottom;
+}
+table tr td{
+  table-layout: fixed;
+  width: 100%;
+  overflow-x: hidden;
+}
+.clc{
+    overflow-x: scroll;
+    width: 500px;
+}
+body{
+    overflow-x: scroll;
+}

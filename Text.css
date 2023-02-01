@@ -1,0 +1,63 @@
+
+body{
+    margin-bottom: 400px;
+}
+a{
+    text-decoration: line-through;
+    color: black;
+}
+p{
+    /* position: fixed; */
+    /* z-index: 100; */
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-indent: 10px;
+    text-decoration: underline;
+    text-transform: uppercase; 
+    text-shadow: 1px 2px 3px red;
+    /* color: #f4f4f4 */
+    color: #fff;
+    /* color: rgb(25, 50, 100); */
+    background-image: url(img/bash.png);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    background-attachment: fixed;
+    background-size: 1000px 1000px;
+
+}
+.border{
+    border-top: 10px solid orange;
+    border-right: 5px solid red;
+    border-left: 10px solid blue;
+    border-bottom: 5px solid black;
+}
+.valuemax{
+    border: 5px solid;
+    border-radius: 10px 0px 10px 1px;
+    /* border-width: 5px; */
+    border-color: blue;
+    border-right-style: dotted;
+    border-radius: 20px;
+    padding: 50px;
+    margin-left: 200px;
+    outline-style:double;
+    outline-color:red;
+    outline-offset: 10px;
+    outline:2px solid red;
+    background-color: rgb(30,50,80,1);
+    opacity: 3;
+}
+    img{
+        border:10px solid green;
+        width:80%;
+        height:50%;
+        opacity:3;
+        border-radius: 10px;
+    }
+    
+
+input{
+    /* direction: rtl; */
+    text-align: center;
+}

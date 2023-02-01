@@ -1,0 +1,38 @@
+
+li a{
+    color: black;
+    background-color: bisque;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 30px;
+}
+li a{
+    margin-left: 50px;
+}
+li a:active{
+    color: blueviolet;
+    background: black;
+    border: 10px solid;
+    border:radius 20px;
+}
+li a:visited{
+    color: blue;
+    background: brown;
+}
+li a:hover{
+    color: aquamarine;
+    background: black;
+    padding: 10px;
+    margin-left: 20px;
+    border: 5px solid red;
+    border-radius: 30px;
+}
+ 
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+body{
+    background-image: url(img/hand\ to\ hand.jpg);
+}

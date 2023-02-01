@@ -1,0 +1,68 @@
+.big{
+    animation:big 2s 5s infinite backwards reverse ease-in;
+    background-color: aqua;
+    width: 30%;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+}
+@keyframes big{
+    From{
+        background-color:blue;
+        margin-left: 40%;
+        padding: 10px 20px 30px 20px;
+        border-radius: 20px;
+        width: 50%;
+        margin-top: 20px;
+    }
+    to{
+        margin-left: 10px;
+        margin-top: 100px;
+        background-color: orange;
+        width:30%;
+    }
+}
+.smile{
+    font-size: larger;
+    font-weight: 10%;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hint{
+    animation:hint 2s 1s infinite backwards reverse ease-in;
+    background-color:brown;
+    width: 20%;
+    border: 2px solid purple;
+    border-radius: 20px;
+    text-align: center;
+}
+@keyframes hint{
+    25%{
+        background-color: limegreen;
+        margin-left:50%;
+        width: 30%;
+        height: 100px;
+    }
+    50%{
+        background-color: orange;
+        margin-bottom: 50px;
+        width: 50%;
+        height: 30px;
+    }
+    75%{
+        background-color: green;
+        margin-top: 50px;
+        width: 20%;
+        height: 100px;
+    }
+    100%{
+        background-color:blue;
+        margin-right: 100px;
+        width: 30%;
+        padding: 10px;
+
+    }
+    }
+    
+

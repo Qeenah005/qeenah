@@ -1,0 +1,42 @@
+p{
+    color: brown;
+}
+
+input[type="text"]{
+    margin:50px;
+    border-top: 10px;
+}
+input{
+    padding: 10px;
+    outline:none;
+    box-sizing: content-box;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+h3{
+    color: blue;
+}
+textarea{
+    width: 60%;
+    padding: 20px;
+    border: 50%;
+    height: 200px;
+    border-radius: 30px;
+    background-color: aliceblue;  
+}
+
+#NAME {
+    padding: 39px;
+    color: red;;
+}
+
+::placeholder{
+    color: brown;
+}
+label{
+    color: brown;
+}
+.dabo{
+    float: right;
+}
